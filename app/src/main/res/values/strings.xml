@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Reader</string>
+    <string name="txtCredits"><a href="http://d33kshant.github.io/aboutme/">d33kshant</a></string>
+</resources>

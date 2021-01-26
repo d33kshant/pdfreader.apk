@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Reader" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowButtonStyle">@style/toolbarTheme</item>
+        <item name="colorBackground">#fff</item>
+        <item name="colorCardBackground">#F6F6F6</item>
+        <item name="colorCardBorder">#26000000</item>
+        <item name="colorTextPrimary">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Reader.Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowButtonStyle">@style/toolbarTheme</item>
+        <item name="colorBackground">#020202</item>
+        <item name="colorCardBackground">#121212</item>
+        <item name="colorCardBorder">#26FFFFFF</item>
+        <item name="colorTextPrimary">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="toolbarTheme" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+</resources>
